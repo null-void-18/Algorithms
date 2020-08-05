@@ -1,6 +1,8 @@
 #include<iostream>
+
 using namespace std;
-int max(int a,int b){
+
+int max(int a,int b){                           
     return (a > b) ? a : b;
 }
 
@@ -25,10 +27,6 @@ int knapsack(int val[],int wt[],int n,int W)
 
     return k[n][W];
 }
-
-
-
-
 
 int main(){
     int n,W;
